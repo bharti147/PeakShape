@@ -1,0 +1,102 @@
+@import 'colors.scss';
+
+
+.contact {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    // background-color: rgb(226, 231, 238);
+    background-color: $fourth;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    /* min-height: 100vh; */
+   
+  
+    div{
+     
+      height: 55%;
+      width: auto;
+   
+      // border: 1px solid blue;
+      box-shadow: 5px 5px 5px 5px black;
+      // background-image: url("../assets/a.jpg");
+
+      
+      img{
+        width: auto;
+        height: 100%;
+        filter: blur(1px);
+      }
+    }
+  
+
+  .container-contact {
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+    width: 30%;
+    /* margin-top: 8%; */
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 2px rgb(181, 183, 184);
+  
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2%;
+    h1 {
+      margin: 2% 0 2% 0;
+      text-align: center;
+      color: rgb(15, 71, 108);
+    }
+     span {
+      color: rgb(244, 119, 20);
+    }
+    
+     img {
+      /* border: 1px solid black; */
+      width: 4%;
+    
+      margin: 5% 1% 0 0;
+      color: rgb(15, 71, 108);
+      /* background-color: rgb(244,119,20); */
+    }
+  
+ input {
+    padding: 0.75rem;
+    width: 100%;
+    background-color: rgb(220, 222, 222);
+    border-radius: 5px;
+    border-color: rgb(245, 252, 252);
+    outline: none;
+    font-size: 1rem;
+  }
+textarea {
+    padding: 0.75rem;
+    width: 100%;
+    background-color: rgb(220, 222, 222);
+    border-radius: 5px;
+    border-color: rgb(245, 252, 252);
+    outline: none;
+    font-size: 1rem;
+  }
+  .submit {
+    background-color: rgb(8, 59, 86);
+    color: white;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
+}
+}
+ 

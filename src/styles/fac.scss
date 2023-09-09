@@ -1,0 +1,137 @@
+@import "./colors.scss";
+
+
+.fac{
+    
+        width: 100%;
+        height: 100vh;
+        background-color: $fourth;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+
+        .customModal {
+          position: absolute; // Change to absolute positioning
+          top: 50%; // Adjust positioning as needed
+          left: 50%;
+          transform: translate(-50%, -50%); // Center the modal
+          max-width: 500px;
+          width: 100%;
+          z-index: 1000; // Set a higher z-index value
+          border: 1px solid red;
+        }
+        
+        .customOverlay {
+          background: rgba(68, 130, 156, 0.7);
+          height: 100vh;
+          position: fixed; // Change to fixed positioning
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 999; // Set a higher z-index value
+        }
+        > div{
+            height: 70%;
+            width: 90%;
+            background-color: $third;
+           display: flex;
+         
+           align-items: center;
+           flex-direction: column;
+        //    justify-content: space-around;
+          padding: 1rem ;
+            border-radius:  200px  200px ;
+    
+            h1{
+              
+                text-transform: uppercase;
+                border-bottom: 2px solid $first;
+                padding: 0.5rem;
+                margin:  1rem 0 4rem 0;
+                // border: 1px solid rgb(197, 39, 39);
+                letter-spacing: .2rem;
+
+                width: 20%;
+                text-align: center;
+                font-family: $text1;
+                color: $first;
+            }
+         
+           
+            div{
+            width: 100%;
+            // border: 1px solid rgb(197, 39, 39);
+            height: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            // flex-wrap: wrap;
+           
+    
+    
+    
+    
+                div{
+                    animation: imgUp 0.7s linear infinite alternate;
+                    background-color: $first;
+                    clip-path: circle(40.1% at 50% 50%);
+                    height: 100%;
+                    width:50%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+               transition: all 0.5s;
+    
+    
+               &:hover{
+    filter: invert(1);
+    cursor: pointer;
+               }      
+                 p{
+                    font: 600  bold 2rem $text2;
+                   padding-top: .25rem;
+                 }
+        
+                    img{
+                        width: auto;
+                        height: 50%;
+    
+                      object-fit: contain;
+                        padding: 0.5rem;
+                       
+                        clip-path: circle(49% at 50% 50%);
+          
+    
+
+                        
+
+
+                    
+                    }
+                  
+                 
+
+                    
+          
+                }
+                
+               
+            }
+            
+          
+        }
+
+
+        .mod{
+
+        }
+        .overlay{
+          background-color: blue;
+        }
+        
+        
+    
+
+}

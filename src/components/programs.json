@@ -1,0 +1,83 @@
+
+
+[
+    {
+        "index":1,
+        "name": "Personal Training",
+        "overview": "Get personalized training sessions with certified trainers that cater to your unique fitness goals and needs.",
+        "classTimings": "Monday to Friday: 6:00 AM - 8:00 PM",
+        "ageGroup": "Open to all age groups.",
+        "instructor": 
+         "John Smith - Certified personal trainer with 10+ years of experience in strength training and conditioning."
+         
+        ,
+        "requiredItems": [
+          "Comfortable workout attire, ",
+          "Sneakers, ",
+          "Water bottle"
+        ],
+        "image":"pt.png"
+      },
+      {
+        "index":2,
+        "name": "Zumba Classes",
+        "overview": "Join our energetic dance workouts with infectious music, making exercise feel like a dance party.",
+        "classTimings": "Tuesday and Thursday: 5:30 PM - 7:00 PM\nSaturday: 10:00 AM - 11:30 AM",
+        "ageGroup": "Suitable for teens and adults.",
+        "instructor": "Maria Rodriguez - Experienced dance instructor passionate about making fitness fun through dance."
+          
+        ,
+        "requiredItems": [
+          "Comfortable clothing, ",
+          "Supportive sneakers, ",
+          "Water bottle"
+        ],
+        "image": "z.jfif"
+      },
+      {
+        "index":3,
+        "name": "Cardio Batch",
+        "overview": "Boost cardiovascular health through high-intensity interval training that increases stamina and endurance.",
+        "classTimings": "Monday, Wednesday, and Friday: 7:00 AM - 8:00 AM",
+        "ageGroup": "Designed for adults seeking cardiovascular fitness.",
+        "instructor": 
+        "Michael Johnson  - Experienced fitness coach specializing in cardiovascular workouts."
+           
+        ,
+        "requiredItems": [
+          "Workout clothes, ",
+          "Running shoes, ",
+          "Towel, ",
+          "Water"
+        ],
+        "image": "c.png"
+      },
+      {
+        "index":4,
+        "name": "Diet Plan",
+        "overview": "Receive customized diet plans aligned with your fitness goals to enhance your results.",
+        "timings": "Flexible schedule based on your availability.",
+        "ageGroup": "Suitable for adults looking to improve their nutrition.",
+        "instructor": "Emily Anderson - Certified nutritionist with expertise in designing personalized meal plans.",
+        "consultationFee": "$50 per session",
+        "consultationMethod": "In-person or virtual",
+        "image": "d.jfif"
+      },
+      {
+        "index":5,
+        "name": "Yoga Classes",
+        "overview": "Immerse yourself in the art of relaxation, flexibility, and mindfulness through various yoga practices.",
+        "classTimings": "Monday and Wednesday: 6:30 PM - 8:00 PM\nSaturday: 9:00 AM - 10:30 AM",
+        "ageGroup": "Open to all age groups.",
+        "instructor":  "Sophia Lee - Experienced yoga instructor guiding students towards inner balance and harmony.",
+         
+       
+        "requiredItems": [
+          "Yoga mat, ",
+          "Comfortable attire, ",
+          "Water"
+        ],
+        "image": "y.png"
+      }
+
+]

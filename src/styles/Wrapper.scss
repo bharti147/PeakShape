@@ -1,0 +1,31 @@
+@import './colors.scss';
+
+  .mod{
+ 
+     font-family: $text1;
+    //  background-color: antiquewhite;
+     
+
+
+    h1{
+        text-align: center;
+        padding: 1rem;
+    }
+    h3{
+        // text-align: center;
+        padding: 1rem 2rem;
+    }
+    h4{
+        font-weight: 500;
+        text-align: center;
+        padding: 1rem 4rem 2rem 4rem;
+    }
+    p{
+        // text-align: center;
+        padding: 1rem 2rem;
+    }
+    span{
+        font:800 1.25rem $text2;
+        
+    }
+  }
