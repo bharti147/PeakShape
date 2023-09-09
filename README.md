@@ -7,7 +7,7 @@ PeakShape is a versatile React-based fitness app that offers a wide range of fea
 
 Check out the live demo of PeakShape on Netlify:
 
-[![Launch PeakShape](https://www.netlify.com/img/deploy/button.svg)](https://peakshapegym.netlify.app/)
+[![Launch PeakShape](https://www.netlify.com/img/button.svg)](https://peakshapegym.netlify.app/)
 
 
 
