@@ -12,7 +12,7 @@ function Header() {
     <nav>
     <h1>PeakShape</h1>
     <main>
-        <HashLink  to={"/#home"}>Home</HashLink>
+        <HashLink  to={"/"}>Home</HashLink>
         <HashLink  to={"/contact"}>Contact</HashLink>
         <HashLink  to={"/#about"}>About</HashLink>
         <HashLink  to={"/#mem"}>Plans</HashLink>
